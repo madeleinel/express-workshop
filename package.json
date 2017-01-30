@@ -1,0 +1,29 @@
+{
+  "name": "express-workshop",
+  "version": "1.0.0",
+  "description": "First time using express; setting up cms",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeleinel/express-workshop.git"
+  },
+  "keywords": [
+    "express",
+    "node.js",
+    "cms",
+    "blog"
+  ],
+  "author": "Madeleinel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madeleinel/express-workshop/issues"
+  },
+  "homepage": "https://github.com/madeleinel/express-workshop#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-formidable": "^1.0.0"
+  }
+}

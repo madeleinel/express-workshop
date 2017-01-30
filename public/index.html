@@ -13,8 +13,15 @@
             <h1 class="title">Node Girls</h1>
         </header>
         <main>
+            <!-- Create a form to create blog posts through -->
             <div class="entry-container">
-                <!--PASTE YOUR CODE HERE!! -->
+                <h3>Create a blog post</h3>
+                <form action="/create-post" method="POST"> <!-- Use the POST method, as need to send the content to the server -->
+                <!-- 'action' attribute == the endpoint the form data will be sent to | 'name' attribute == will be used to reference the data -->
+                  <textarea name="blogpost" rows="10" cols="14"></textarea>
+                  <button type="submit">Send</button>
+                  <!-- When press send >> the form will send a POST request to the server, using the content within the 'action' attribute as the endpoint ('/create-post') -->
+                </form>
             </div>
 
             <br/>
