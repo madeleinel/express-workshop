@@ -77,3 +77,36 @@ app.listen(3000, function() {
         // Switch on the server (need to set up a port using 'app.listen' first); Use the 'node' keyword in the command line to run the server file
         // >> In the terminal >> node server.js
         // >> the terminal should display the console.log message specified above
+
+
+
+
+
+        // fs.readFile('/create-post', function (error, file) {
+        //
+        //   fs.writeFile('/data/posts.json', newPost, function (error) {
+        //   })
+        // })
+        //
+        // // Takes the content written into the site textbox & console.log's it within the terminal
+        // app.post('/create-post', function(req, res) {
+        //   var newPost = req.fields.blogpost;
+        //   console.log(newPost);
+        //
+        //
+        //   // Writes the new content to the file 'posts.json'
+        //   fs.writeFile(__dirname + '/data/posts.json', newPost, function (error) {
+        //      var file = JSON.stringify(newPost);
+        //      console.log(file);
+        //    });
+        // });
+        //
+        // // When new blog post comes in, read from the 'posts.json' file to access its content
+        // app.get("/create-post", function(req, res) {
+        //   // console.log(req.fields);
+        //
+        //   fs.readFile(__dirname + '/data/posts.json', function (error, file) {
+        //     var parsedFile = JSON.parse(file);
+        //
+        //   });
+        // });
